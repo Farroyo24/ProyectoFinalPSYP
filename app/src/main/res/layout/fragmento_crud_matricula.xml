@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/crudMatriculaList_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Matricula" />
+
+    <Button
+        android:id="@+id/crudMatriculaCreate_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Matricula" />
+
+
+    <Button
+        android:id="@+id/crudMatriculaRead_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Matricula" />
+
+    <Button
+        android:id="@+id/crudMatriculaUpdate_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Matricula" />
+
+
+    <Button
+        android:id="@+id/crudMatriculaDelete_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Matricula" />
+</LinearLayout>

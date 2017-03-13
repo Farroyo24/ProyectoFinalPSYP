@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vistaCreateMatricula">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREAR MATRICULA"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:background="#0000ff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#36f">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DNI"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/dniCreateMatricula"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CÓDIGO ASIGNATURA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/codigoCreateMatricula"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha MATRICULA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/fechaCreateMatricula"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOTA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/notaCreateMatricula"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="crear Matricula"
+            android:id="@+id/crear_boton_matricula"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

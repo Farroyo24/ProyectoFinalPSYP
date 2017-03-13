@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vistaPutAsignatura">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR ASIGNATURA"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:background="#0000ff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR POR COD ASIGNATURA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="#36f"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buscarPutAsignatura"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR"
+            android:id="@+id/botonBuscarAsignatura"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#36f">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE ASIGNATURA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/nombrePutAsignatura"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CÓDIGO ASIGNATURA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/codigoAsignatura"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR"
+            android:id="@+id/botonActualizarAsignatura"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

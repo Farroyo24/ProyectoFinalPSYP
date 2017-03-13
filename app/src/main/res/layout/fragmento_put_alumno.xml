@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vistaPutAlumno">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR ALUMNO"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:background="#0000ff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR POR DNI ALUMNO"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="#36f"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buscarPutAlumno"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR"
+            android:id="@+id/botonBuscarAlumno"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#36f">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE ALUMNO"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/nombrePutAlumno"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APELLIDOS ALUMNO"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/apellidosPutAlumno"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DNI ALUMNO"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:id="@+id/dniPutAlumno"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="actualizar alumno"
+            android:id="@+id/actualizar_boton_alumno"/>
+
+    </LinearLayout>
+</LinearLayout>

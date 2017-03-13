@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/crudAlumnoList_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Alumnos" />
+
+    <Button
+        android:id="@+id/crudAlumnoCreate_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Alumno" />
+
+
+    <Button
+        android:id="@+id/crudAlumnoRead_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Alumno" />
+
+    <Button
+        android:id="@+id/crudAlumnoUpdate_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Alumno" />
+
+
+    <Button
+        android:id="@+id/crudAlumnoDelete_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Alumno" />
+</LinearLayout>

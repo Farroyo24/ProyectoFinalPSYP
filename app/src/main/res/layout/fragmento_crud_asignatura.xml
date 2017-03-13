@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ASIGNATURA"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:background="#0000ff"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/crudAsignaturaList_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Asignaturas" />
+
+    <Button
+        android:id="@+id/crudAsignaturaCreate_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Asignatura" />
+
+
+    <Button
+        android:id="@+id/crudAsignaturaRead_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Asignatura" />
+
+    <Button
+        android:id="@+id/crudAsignaturaUpdate_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Asignatura" />
+
+
+    <Button
+        android:id="@+id/crudAsignaturaDelete_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Asignatura" />
+</LinearLayout>
